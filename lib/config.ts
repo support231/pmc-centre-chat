@@ -2,6 +2,8 @@ import { ColorScheme, StartScreenPrompt, ThemeOption } from "@openai/chatkit";
 
 export const WORKFLOW_ID =
   process.env.NEXT_PUBLIC_CHATKIT_WORKFLOW_ID?.trim() ?? "";
+export const WORKFLOW_VERSION =
+  process.env.NEXT_PUBLIC_CHATKIT_WORKFLOW_VERSION?.trim() ?? "";
 
 export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
